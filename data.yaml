@@ -1,0 +1,7 @@
+train: /Users/alschlee/data/images/train
+val: /Users/alschlee/data/images/val
+test: /Users/alschlee/data/images/test
+
+nc: 6
+
+names: ['Metal', 'Plastic', 'Special Waste', 'Glass', 'Paper', 'General Waste']  # 클래스 이름

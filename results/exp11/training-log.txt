@@ -1,0 +1,16 @@
+100 epochs completed in 17.491 hours.
+Optimizer stripped from runs\train\exp11\weights\last.pt, 14.5MB
+Optimizer stripped from runs\train\exp11\weights\best.pt, 14.5MB
+
+Validating runs\train\exp11\weights\best.pt...
+Fusing layers...
+YOLOv5s summary: 157 layers, 7026307 parameters, 0 gradients, 15.8 GFLOPs
+Class Images Instances P R mAP50 mAP50-95: 100%|██████████| 13/13 [01:05<00:00, 5.00s/it]
+all 400 1267 0.31 0.245 0.191 0.125
+Metal 400 115 0.478 0.342 0.311 0.196
+Plastic 400 503 0.423 0.41 0.35 0.235
+Special Waste 400 49 0.295 0.204 0.125 0.093
+Glass 400 113 0.187 0.0177 0.0218 0.0124
+Paper 400 113 0.312 0.389 0.269 0.185
+General Waste 400 374 0.166 0.104 0.0678 0.0315
+Results saved to runs\train\exp11

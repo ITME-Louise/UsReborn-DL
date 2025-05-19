@@ -1,9 +1,15 @@
 # 본인 로컬 환경에 맞게 데이터 경로를 수정해야 합니다.
 
-train: /Users/alschlee/data/images/train
-val: /Users/alschlee/data/images/val
-test: /Users/alschlee/data/images/test
+train: D:/reusable-trash-images/reusable-trash-images/dataset/images/train
+val: D:/reusable-trash-images/reusable-trash-images/dataset/images/val
+test: D:/reusable-trash-images/reusable-trash-images/dataset/images/test
 
-nc: 6
+# SELECTSTAR
+nc: 7
+names: ['paper', 'pack', 'can', 'glass', 'pet', 'plastic', 'vinyl']
 
-names: ['Metal', 'Plastic', 'Special Waste', 'Glass', 'Paper', 'General Waste']  # 클래스 이름
+
+# TACO
+# nc: 6
+
+# names: ['Metal', 'Plastic', 'Special Waste', 'Glass', 'Paper', 'General Waste']  # 클래스 이름
